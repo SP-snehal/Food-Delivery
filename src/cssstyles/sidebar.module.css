@@ -1,0 +1,93 @@
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -270px;
+  width: 270px;
+  height: 100%;
+  background: linear-gradient(135deg, #2c3e50, #083958); 
+  color: white;
+  transition: left 0.3s ease-in-out;
+  padding-top: 20px;
+  box-shadow: 5px 0 20px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 2px solid rgba(0, 123, 255, 0.3); 
+}
+
+.open {
+  left: 0;
+}
+
+.close {
+  margin-left: -200px;
+}
+
+
+.sidebarTitle {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Georgia", serif; 
+  color: #007bff; 
+  margin-top: 25px;
+  text-shadow: 2px 2px 10px rgba(0, 123, 255, 0.6);
+  margin-bottom: 25px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.closeIcon {
+  cursor: pointer;
+  color: white;
+  align-self: flex-start;
+  margin-left: 200px;
+  transition: 0.3s;
+}
+
+.closeIcon:hover {
+  color: #007bff; 
+  transform: scale(1.2);
+}
+
+.navLinks {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  width: 100%;
+  padding-left: 20px;
+}
+
+
+.navLinks a {
+  color: white; 
+  text-decoration: none;
+  padding: 14px 20px;
+  font-size: 18px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  display: block;
+  text-align: center;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  margin: 5px 15px;
+  background: rgba(255, 255, 255, 0.1); 
+}
+
+.navLinks a:hover {
+  background: #007bff; 
+  color: white;
+  border-color: white;
+  font-weight: bold;
+}
+
+
+.hamburgerIcon {
+  cursor: pointer;
+  color: white;
+  margin: 10px;
+}
+
+.hamburgerIcon:hover {
+  color: #007bff; 
+}

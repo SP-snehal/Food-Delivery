@@ -1,0 +1,74 @@
+/* ✅ Reset & Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sahitya", serif;
+}
+
+.historyContainer{
+  margin-left: 350px;
+}
+
+.tableWrapper {
+  overflow-x: auto;
+  margin-top: 40px;
+  padding: 10px;
+}
+
+
+.orderTable {
+  width: 100%;
+  max-width: 1000px;
+  border-collapse: collapse;
+  background-color: #cce9dc;
+  border: 1px solid #a2e8c7;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+
+.orderTable thead {
+  background-color: #004080;
+  color: white;
+}
+
+.orderTable th {
+  padding: 16px 24px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+}
+
+
+.orderTable td {
+  padding: 14px 24px;
+  text-align: left;
+  font-size: 15px;
+  color: #000; 
+}
+
+
+.orderTable tr:nth-child(even) {
+  background-color: #f1f4f7;
+}
+
+
+.orderTable tr:hover {
+  transition: background-color 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .orderTable th,
+  .orderTable td {
+    padding: 10px;
+    font-size: 13px;
+  }
+
+  .tableWrapper {
+    margin-left: 20px; 
+    margin-right: 20px;
+  }
+}

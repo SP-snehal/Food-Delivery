@@ -1,0 +1,79 @@
+.cart {
+  width: 90%;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: transparent;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.cartBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 123, 255, 0.1);
+}
+
+.itemInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.price {
+  font-weight: 600;
+  color: #007bff;
+}
+
+.removebtn {
+  border: 1px solid #007bff;
+  padding: 8px 20px;
+  cursor: pointer;
+  border-radius: 6px;
+  background-color: transparent;
+  color: #007bff;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.removebtn:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.total {
+  text-align: right;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.submitbtn {
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submitbtn:hover {
+  background-color: #0056b3;
+}

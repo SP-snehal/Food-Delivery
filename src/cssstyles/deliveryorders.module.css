@@ -1,0 +1,119 @@
+
+.imageipl {
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 110vh;
+  position: relative;
+  display: flex;
+  background-image: url(../assests/ot.jpeg);
+}
+
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  margin-left: 70px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+}
+
+
+.avatar1 {
+  background-image: url("../assests/person1.jpeg");
+}
+
+.avatar2 {
+  background-image: url("../assests/person2.jpeg");
+}
+
+.avatar3 {
+  background-image: url("../assests/person3.jpeg");
+}
+
+
+.orderContainer {
+  width: 350px;
+  height: 550px;
+  margin: 40px auto;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.9);
+  border-radius: 8px;
+  margin-top: 90px;
+  font-family: 'Arial', sans-serif;
+}
+
+/* ✅ Heading */
+h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+}
+
+
+.videoContainer {
+  margin: 20px 0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+
+.error {
+  color: red;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+.orderItem {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+  margin-bottom: 12px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.orderItem:hover {
+  transform: scale(1.02);
+}
+
+
+p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: white;
+}
+
+p strong {
+  color: #fff;
+}
+
+
+@media (max-width: 600px) {
+  .orderContainer {
+    padding: 15px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .orderItem {
+    padding: 12px;
+  }
+}
