@@ -41,7 +41,7 @@ function FoodHistory() {
                 <th>Status</th>
               </tr>
             </thead>
-            <tbody>
+            <tbody>,
               {history.map((order, index) => (
                 <tr key={index}>
                   <td>{order.quantity}</td>
