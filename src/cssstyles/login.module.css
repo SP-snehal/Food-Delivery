@@ -1,0 +1,90 @@
+.logincontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1530px;
+  height: 710px; 
+  background-image: url('../assests/foodback.jpeg'); 
+  background-size: cover;
+  background-position: center;
+}
+
+
+.loginform {
+  height: 440px;
+  width: 400px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+  border: 5px solid rgb(42, 92, 245);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+  margin-left: 30px;
+  margin-top: 60px;
+}
+
+
+.loginform:hover {
+  border-color: white;
+  box-shadow: 0 0 20px rgba(42, 92, 245, 0.7);
+}
+
+
+.loginformh2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: white;
+  font-family: 'Georgia', serif;
+  font-weight: bold;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}
+
+
+.loginformlabel {
+  display: block;
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
+.loginforminput {
+  width: 80%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  font-size: 16px;
+ 
+}
+
+.loginforminput:focus {
+  border-color: rgb(42, 92, 245);
+  box-shadow: 0 0 5px rgba(42, 92, 245, 0.8);
+}
+
+
+.loginformbutton {
+  width: 40%;
+  padding: 12px;
+  margin-left: 20px;
+  font-weight: bold;
+  color: white;
+  border: 2px solid white;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+
+.loginformbutton:hover {
+  background: linear-gradient(90deg, rgb(0, 102, 204), rgb(30, 144, 255));
+  border-color: rgb(255, 255, 255);
+  box-shadow: 0 0 15px rgba(30, 144, 255, 0.8);
+}
+
+
+

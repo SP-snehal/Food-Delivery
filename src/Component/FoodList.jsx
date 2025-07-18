@@ -10,7 +10,9 @@ const FoodList = ({ addToCart }) => {
             {foodItems.map(item => (
                 <FoodItem key={item.id} item={item} addToCart={addToCart} />
             ))}
+            
         </div>
+        
     );
 };
 

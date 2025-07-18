@@ -1,0 +1,101 @@
+/* ✅ Reset & Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Sahitya", serif;
+}
+
+/* ✅ Background & Form Container */
+.signoutContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  width: 1500px;
+  background-image: url('../assests/job.jpeg');
+  background-size: cover;
+  padding: 20px;
+}
+
+.signout {
+  background: rgba(0, 0, 0, 0.85);
+  padding: 40px;
+  border-radius: 12px;
+  width: 490px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4);
+  border: 5px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.signout:hover {
+  border-color: white;
+}
+
+h2 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 20px;
+  border-bottom: 3px solid rgb(42, 92, 245);
+  padding-bottom: 10px;
+}
+
+
+.formFields {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+
+.signout label {
+  display: block;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.signout label:hover {
+  color: rgb(42, 92, 245);
+}
+
+
+.signout input {
+  width: 200px;
+  padding: 12px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: transparent;
+  color: white;
+}
+
+.signout input:focus {
+  border-color: rgb(42, 92, 245);
+}
+
+
+.submitbtn {
+  width: 48%;
+  padding: 12px;
+  border-radius: 8px;
+  color: white;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.submitbtn:hover {
+  background: linear-gradient(90deg, rgb(0, 102, 204), rgb(30, 144, 255));
+  border-color: rgb(255, 255, 255);
+  box-shadow: 0 0 15px rgba(30, 144, 255, 0.8);
+}

@@ -1,4 +1,4 @@
-// import React from 'react'
+
 import axios from 'axios';
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
@@ -17,11 +17,11 @@ const LoginForm = () => {
       password
       
     }
-   //const response = await axios.post("http://192.168.29.47:8083/api/v1/user/login",payload)
-   const response = await axios.post("http://localhost:8083/api/v1/user/login",payload)
+   
+   const response = await axios.post("http://localhost:9092/api/v1/user/login",payload)
     console.log(response.data)
     if(response.status === 200){
-      navigate('/Dashboard')
+      navigate('/dashboard')
     }
   };
   return (
